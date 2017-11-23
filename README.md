@@ -27,6 +27,6 @@ You can publish your project onto your embedded Jetty server using the following
 
 $gradle appRun
 
-You server should start up promptly. You can browse to your service - http://localhost:8080/jersey_rest_framework
+You server should start up promptly. You can browse to your service - <code>http://localhost:8080/jersey_rest_framework</code>
 
-For more on Jersey RESTful WebServices framework, please visit <a href="https://jersey.github.io/">jersey</a>
+For more on Jersey RESTful WebServices framework, please visit <a href="https://jersey.github.io/">Project Jersey</a>
