@@ -1,4 +1,4 @@
-# <code>jersey_rest_framework </code>  - with embedded Jetty container
+# <code>jersey_rest_framework </code>  - embedded Jetty container
 
 This project demonstrates how to deploy and publish a REST service using an embedded lightweight http container or java based server (like Jetty) that can be configured and started programatically using Jersey RESTful Webservices framework
 
