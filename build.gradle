@@ -9,6 +9,7 @@
 buildscript {
    repositories {
       jcenter()   
+      mavenCentral()
       }
       dependencies {    
         classpath 'org.akhikhl.gretty:gretty:1.4.2'        
@@ -27,7 +28,13 @@ buildscript {
        dependencies {
            compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet', version: '2.26'
            compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-grizzly2-servlet', version: '2.26'
+           compile group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '2.26'
+           compile group: 'org.glassfish.jersey.test-framework.providers', name: 'jersey-test-framework-provider-jetty', version: '2.26'
+           
        }
+       war {
+          webXml = file('src/web.xml')
+          }
        
  
  
