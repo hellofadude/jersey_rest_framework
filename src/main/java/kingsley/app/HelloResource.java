@@ -1,5 +1,11 @@
 package kingsley.app;
 
+/**
+ * 
+ * @author kosime
+ * 
+ */
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -12,7 +18,7 @@ public class HelloResource {
 	@Produces("text/html")
 	public String sayHello(@QueryParam("name") String name) {
 		
-		return "Hello" + name;
+		return "Hello" + " " + name;
 	}
 
 }
