@@ -1,4 +1,4 @@
-# <code>jersey_rest_framework</code>  - gradle build
+# <code>jersey_rest_framework</code>  - gradle build system
 
 This project is intended for use as a template to quickly develop and test RESTful services using an embedded lightweight http container or java based server (like Jetty) that can be configured and started programatically using Jersey RESTful Webservices framework on top of a gradle build pipeline.
 
